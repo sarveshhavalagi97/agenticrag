@@ -1,12 +1,6 @@
 
 # 🤖 Agentic RAG using CrewAI
 
-<div align="center">
-
-![GitHub](https://img.shields.io/github/license/yourusername/agentic-rag-crewai)
-![Python](https://img.shields.io/badge/python-v3.11+-blue.svg)
-![CrewAI](https://img.shields.io/badge/CrewAI-Latest-green)
-
 A powerful Retrieval-Augmented Generation (RAG) system built with CrewAI that intelligently searches through documents and falls back to web search when needed. Features local LLM support with deep-seek-r1 or llama 3.2!
 
 </div>
@@ -97,20 +91,6 @@ Before running the application, ensure you have:
    pip install crewai crewai-tools markitdown qdrant-client fastembed
    ```
 
-## 🎮 Running the Application
-
-Choose your preferred LLM model:
-
-- **For deep-seek-r1**:
-  ```bash
-  streamlit run app_deep_seek.py
-  ```
-
-- **For llama 3.2**:
-  ```bash
-  streamlit run app_llama3.2.py
-  ```
-
 ## 🛠️ System Architecture
 
 The system consists of two main agents:
@@ -136,29 +116,4 @@ The system consists of two main agents:
    - System automatically detects when document search isn't sufficient
    - Seamlessly switches to web search
    - Combines information from multiple sources
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [CrewAI](https://github.com/joaomdmoura/crewai) for the amazing framework
-- The open-source community for various tools and libraries used in this project
-
----
-
-<div align="center">
-Made with ❤️ by [KNA]
-</div>
 
